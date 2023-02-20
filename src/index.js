@@ -6,7 +6,6 @@ import $ from "jquery";
 import Popper from "popper.js";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 
-import Pricing from "../src/routes/Pricing";
 import App from "../src/routes/App";
 
 const rootElement = document.getElementById("root");
