@@ -11,7 +11,7 @@ export default function Home() {
             <div className="submenu"></div>
           </li>
           <li>
-            <a href="./Recetas"> Recomendaciones</a>
+            <a className="a"> Recomendaciones</a>
           </li>
           <li>
             <a className="a"> Soporte</a>

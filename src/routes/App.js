@@ -5,7 +5,6 @@ import Home from "../Home";
 import EjerciciosNA from "../EjerciciosNA";
 import EjerciciosNP from "../EjerciciosNP";
 import EjerciciosNL from "../EjerciciosNL";
-import Recetas from "../Recetas";
 import dataPricing from "../dataPricing";
 
 class App extends React.Component {
@@ -19,7 +18,6 @@ class App extends React.Component {
           <Route exact path="/EjerciciosNA" component={EjerciciosNA} />
           <Route exact path="/EjerciciosNP" component={EjerciciosNP} />
           <Route exact path="/EjerciciosNL" component={EjerciciosNL} />
-          <Route exact path="/Recetas" component={Recetas} />
         </Switch>
       </BrowserRouter>
     );
