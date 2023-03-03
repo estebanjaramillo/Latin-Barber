@@ -14,7 +14,10 @@ export default function Home() {
             <a className="a"> Recomendaciones</a>
           </li>
           <li>
-            <a className="a"> Soporte</a>
+            <a className="a" href="mailto:latinbarberofficial@gmail.com">
+              {" "}
+              Soporte
+            </a>
             <div className="submenu">
               <a className="a" href="mailto:latinbarberofficial@gmail.com">
                 Gmail
