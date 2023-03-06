@@ -14,7 +14,16 @@ export default function Home() {
             <a className="a"> Recomendaciones</a>
           </li>
           <li>
-            <a className="a">Soporte </a>
+            <a className="a">Nosotros</a>
+            <div className="submenu">
+              <a className="a">Quien somos</a>
+              <a className="a" href="/Mision">
+                Mision
+              </a>
+            </div>
+          </li>
+          <li>
+            <a className="a">Redes sociales </a>
             <div className="submenu">
               <a className="a" href="mailto:latinbarberofficial@gmail.com">
                 Gmail
@@ -27,7 +36,6 @@ export default function Home() {
               </a>
             </div>
           </li>
-          <li></li>
         </ul>
       </nav>
       <br></br>

@@ -67,11 +67,17 @@ body {
   color: rgb(0, 247, 255);
   font-family: "Times New Roman", Times, serif;
   text-decoration: none;
+  z-index: 1;
 }
+
 .menu li:hover .submenu {
+  z-index: 1;
   visibility: visible;
   opacity: 1;
   color: rgb(0, 247, 255);
+}
+#menu {
+  z-index: 1;
 }
 /*imagen*/
 img {
