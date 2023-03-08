@@ -10,10 +10,18 @@ export default function quienessomos() {
       <br></br>
       <br></br>
       <h2 className="h2">
-        Somos una Barberia que busca brindarte una experiencia unica, estamos
-        ofreciendo a nuestros clientes la posibilidad de encontrar su mejor
-        extilo con los diversos cortes que tenemso en nuestro catalogo, ademas
-        de ofrecerte conocimientos que te ayudaran a mantener tu estilo unico
+        Bienvenidos a nuestra barbería, somos un equipo de barberos apasionados
+        y experimentados que se dedican a brindar un servicio excepcional a
+        nuestros clientes. Nos esforzamos por crear un ambiente relajado y
+        acogedor donde nuestros clientes puedan disfrutar de una experiencia de
+        cuidado personal de primera clase. Desde cortes de cabello clásicos
+        hasta estilos modernos y afeitados precisos, nuestro objetivo es hacer
+        que nuestros clientes se sientan renovados y seguros después de cada
+        visita. Nos enorgullece ofrecer un servicio al cliente excepcional y una
+        atención al detalle que garantiza resultados de alta calidad en todo
+        momento. En resumen, somos más que una simple barbería, somos un lugar
+        donde los clientes pueden sentirse cómodos, relajados y seguros de que
+        su aspecto está en las mejores manos.
       </h2>
     </div>
   );
