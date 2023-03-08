@@ -17,7 +17,7 @@ export default function Home() {
             <a className="a">Nosotros</a>
             <div className="submenu">
               <a className="a" href="/quienessomos">
-                Quien somos
+                Quienes somos
               </a>
               <a className="a" href="/Mision">
                 Mision
