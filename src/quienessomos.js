@@ -1,12 +1,12 @@
 import React from "react";
 import "./styles.css";
 
-export default function quiensomos() {
+export default function quienessomos() {
   return (
     <div className="fondo">
       <br></br>
       <br></br>
-      <h1 className="titulo">Nuestra Misión</h1>
+      <h1 className="titulo">Quienes Somos</h1>
       <br></br>
       <br></br>
       <h2 className="h2">
