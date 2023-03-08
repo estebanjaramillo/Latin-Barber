@@ -16,7 +16,7 @@ export default function Home() {
           <li>
             <a className="a">Nosotros</a>
             <div className="submenu">
-              <a className="a" href="/quiensomos">
+              <a className="a" href="/quienessomos">
                 Quien somos
               </a>
               <a className="a" href="/Mision">
