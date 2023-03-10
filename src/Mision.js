@@ -9,12 +9,12 @@ export default function Mision() {
       <h1 className="titulo">Nuestra Misión</h1>
       <br></br>
       <br></br>
-      <h2 className="h2">
+      <h2 className="contenedor">
         Brindar un servicio conveniente y eficiente para nuestros clientes,
         permitiéndoles agendar citas para servicios de barbería de manera rápida
         y fácil a través de nuestra plataforma en línea.
       </h2>
-      <h2 className="h2">
+      <h2 className="contenedor">
         Nos comprometemos a ofrecer un servicio amigable y profesional para
         ayudar a nuestros clientes a lucir y sentirse bien con un corte de
         cabello excepcional. Nos esforzamos por ser una solución confiable y

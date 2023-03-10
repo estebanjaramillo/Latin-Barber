@@ -11,7 +11,9 @@ export default function Home() {
             <div className="submenu"></div>
           </li>
           <li>
-            <a className="a"> Recomendaciones</a>
+            <a className="a" href="/Recomendaciones">
+              Recomendaciones
+            </a>
           </li>
           <li>
             <a className="a">Nosotros</a>

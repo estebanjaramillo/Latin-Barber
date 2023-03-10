@@ -81,7 +81,10 @@ body {
 }
 /*imagen*/
 img {
-  width: 45%;
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*Contenedor de la lista de integrantes*/
 .contenedor {
@@ -89,12 +92,14 @@ img {
   box-sizing: border-box;
   padding: 1em;
   width: 90%;
-  float: left;
+  font-size: 150%;
+  float: center;
   margin: 2px;
   object-fit: cover;
   vertical-align: top;
   text-align: center;
   font-family: sans-serif;
+  color: black;
 }
 /*Contenedor de la lista de ejercicios*/
 .contenedorEJ {
@@ -109,10 +114,12 @@ img {
 }
 /*parrafo*/
 h1 {
-  font-family: "Times New Roman", Times, serif;
+  font-family: sans-serif;
   text-align: center;
-  color: black;
-  font-size: 150%;
+  color: rgb(0, 247, 255);
+  margin: 0px;
+  vertical-align: 50%;
+  font-size: 120%;
 }
 
 .titulo_p {
@@ -126,14 +133,21 @@ h1 {
   vertical-align: top;
   text-align: center;
   color: rgb(0, 247, 255);
-  font-size: 300%;
+  font-size: 200%;
 }
 
-h2 {
-  font-family: "Times New Roman", Times, serif;
+.h2 {
+  border: 1px;
+  box-sizing: border-box;
+  padding: 1em;
+  width: 90%;
+  float: center;
+  margin: 2px;
+  object-fit: cover;
+  vertical-align: top;
   text-align: center;
+  font-family: sans-serif;
   color: black;
-  font-size: 130%;
 }
 /*titulo de nombres de integrantes*/
 .titulo_integrantes {

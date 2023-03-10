@@ -9,7 +9,7 @@ export default function quienessomos() {
       <h1 className="titulo">Quienes Somos</h1>
       <br></br>
       <br></br>
-      <h2 className="h2">
+      <h2 className="contenedor">
         Bienvenidos a nuestra barbería, somos un equipo de barberos apasionados
         y experimentados que se dedican a brindar un servicio excepcional a
         nuestros clientes. Nos esforzamos por crear un ambiente relajado y
