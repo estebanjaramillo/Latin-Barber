@@ -5,7 +5,6 @@ export default function Recomendaciones() {
   return (
     <div className="fondo">
       <br></br>
-      <br></br>
       <h1 className="titulo">Recomendaciones para el cuidado del cabello</h1>
       <h2 className="contenedor">
         A continucacion te ofreceremos algunos tips para que tengas en cabello
@@ -19,6 +18,9 @@ export default function Recomendaciones() {
         nuestro pelo (seco, graso, quebradizo…) nos ayudará a escoger un champú
         específico que sea más adecuado para nuestro caso.
       </h2>
+      <img src="https://smediabusiness.com/wp-content/uploads/2019/03/Brandless-678x381.jpg" />
+      <br></br>
+      <br></br>
     </div>
   );
 }
