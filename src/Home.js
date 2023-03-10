@@ -46,7 +46,6 @@ export default function Home() {
 
       <h1 className="titulo">Bienvenidos a Latin-Barber</h1>
       <br></br>
-      <br></br>
       <h1 className="contenedor">
         Esta pagina esta especificamente desarrollada para aquellas personas que
         desean gestionar y apartar una cita para el servicio de barberia
