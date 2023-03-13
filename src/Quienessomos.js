@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 
-export default function quienessomos() {
+export default function Quienessomos() {
   return (
     <div className="fondo">
       <br></br>

@@ -7,7 +7,9 @@ export default function Home() {
       <nav className="navegacion">
         <ul className="menu">
           <li>
-            <a className="a"> Catalogo</a>
+            <a className="a" href="/Catalogo">
+              Catalogo
+            </a>
             <div className="submenu"></div>
           </li>
           <li>
@@ -18,7 +20,7 @@ export default function Home() {
           <li>
             <a className="a">Nosotros</a>
             <div className="submenu">
-              <a className="a" href="/quienessomos">
+              <a className="a" href="/Quienessomos">
                 Quienes somos
               </a>
               <a className="a" href="/Mision">
