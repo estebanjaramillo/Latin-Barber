@@ -164,7 +164,7 @@ h1 {
   background-color: rgb(205, 227, 228);
   border-radius: 15px;
   width: 25%;
-  height: 50%;
+  height: auto;
 }
 
 p {
@@ -182,5 +182,12 @@ p {
     margin: 0px;
     vertical-align: 50%;
     font-size: 250%;
+  }
+  .caja {
+    margin: 3%;
+    background-color: rgb(205, 227, 228);
+    border-radius: 15px;
+    width: 35%;
+    height: auto;
   }
 }
