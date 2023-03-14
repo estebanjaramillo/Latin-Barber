@@ -3,7 +3,7 @@ import "./styles.css";
 
 export default function Home() {
   return (
-    <div className="fondo">
+    <div>
       <nav className="navegacion">
         <ul className="menu">
           <li>

@@ -1,5 +1,5 @@
 body {
-  position: absolute;
+  position: center;
   object-fit: cover;
   width: auto;
   height: 100%;
@@ -73,7 +73,7 @@ body {
 /*imagen*/
 img {
   display: block;
-  width: 50%;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -92,17 +92,7 @@ img {
   font-family: sans-serif;
   color: black;
 }
-/*Contenedor de las imagenes del catalogo*/
-.contenedorCat {
-  border: 1px;
-  box-sizing: border-box;
-  padding: 5px;
-  width: 100%;
-  margin: 1px;
-  object-fit: cover;
-  vertical-align: top;
-  text-align: center;
-}
+
 /*parrafo*/
 h1 {
   font-family: sans-serif;
@@ -119,8 +109,7 @@ h1 {
   font-family: "Times New Roman", Times, serif;
   text-align: center;
   color: rgb(0, 247, 255);
-  margin: 0px;
-  vertical-align: 50%;
+  margin: 1%;
   font-size: 350%;
 }
 /*Subtitulo*/
@@ -159,6 +148,31 @@ h1 {
   text-align: center;
 }
 
+.container {
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+  height: 150%;
+}
+.caja img {
+  width: 100%;
+  height: 200px;
+}
+.caja {
+  margin: 3%;
+  background-color: rgb(205, 227, 228);
+  border-radius: 15px;
+  width: 25%;
+  height: 50%;
+}
+
+p {
+  font-family: serif;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
 /*AQUI COMIENZA LAS PARTICIONES RESPONSIVE DE ACUERDO AL ANCHOR DEL DISPOSITIVO*/
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .titulo {
