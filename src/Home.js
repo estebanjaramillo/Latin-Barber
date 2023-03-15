@@ -42,6 +42,11 @@ export default function Home() {
               </a>
             </div>
           </li>
+          <li>
+            <a className="a" href="/Registro">
+              Registrate
+            </a>
+          </li>
         </ul>
       </nav>
       <br></br>
