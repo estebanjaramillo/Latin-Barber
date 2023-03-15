@@ -23,6 +23,13 @@ export default function Registro() {
         />
         <input
           class="controls"
+          type="text"
+          name="apellidos"
+          id="apellidos"
+          placeholder="Ingrese su numero de celular"
+        />
+        <input
+          class="controls"
           type="email"
           name="correo"
           id="correo"
