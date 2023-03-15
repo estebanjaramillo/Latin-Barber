@@ -23,7 +23,7 @@ export default function Login() {
         />
         <input class="botons" type="submit" value="enviar" />
         <p>
-          <a href="#">¿No Ya tengo Cuenta?</a>
+          <a href="#">¿No tengo Cuenta?</a>
         </p>
       </div>
     </div>
