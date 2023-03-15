@@ -5,38 +5,31 @@ export default function Registro() {
   return (
     <div className="fondo">
       <br></br>
-      <div class="form-register">
+      <div className="form-register">
         <h4>Formulario Registro</h4>
         <input
-          class="controls"
+          className="controls"
           type="text"
           name="nombres"
           id="nombres"
           placeholder="Ingrese su Nombre"
         />
         <input
-          class="controls"
+          className="controls"
           type="text"
           name="apellidos"
           id="apellidos"
           placeholder="Ingrese su Apellido"
         />
         <input
-          class="controls"
-          type="text"
-          name="apellidos"
-          id="apellidos"
-          placeholder="Ingrese su numero de celular"
-        />
-        <input
-          class="controls"
+          className="controls"
           type="email"
           name="correo"
           id="correo"
           placeholder="Ingrese su Correo"
         />
         <input
-          class="controls"
+          className="controls"
           type="password"
           name="correo"
           id="correo"
@@ -45,9 +38,9 @@ export default function Registro() {
         <p>
           Estoy de acuerdo con <a href="#">Terminos y Condiciones</a>
         </p>
-        <input class="botons" type="submit" value="Registrar" />
+        <input className="botons" type="submit" value="Registrar" />
         <p>
-          <a href="#">¿Ya tengo Cuenta?</a>
+          <a href="/Login">¿Ya tengo Cuenta?</a>
         </p>
       </div>
     </div>

@@ -3,27 +3,27 @@ import "./styles.css";
 
 export default function Login() {
   return (
-    <div className="fondo">
+    <div>
       <br></br>
-      <div class="form-register">
+      <div className="form-register">
         <h4> Login</h4>
         <input
-          class="controls"
+          className="controls"
           type="text"
           name="nombres"
           id="nombres"
           placeholder="Ingrese su Correo"
         />
         <input
-          class="controls"
+          className="controls"
           type="password"
           name="correo"
           id="correo"
           placeholder="Ingrese su Contraseña"
         />
-        <input class="botons" type="submit" value="enviar" />
+        <input className="botons" type="submit" value="enviar" />
         <p>
-          <a href="#">¿No tengo Cuenta?</a>
+          <a href="/Registro">¿No tengo Cuenta?</a>
         </p>
       </div>
     </div>
