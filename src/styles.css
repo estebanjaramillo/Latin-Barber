@@ -59,6 +59,11 @@ body {
   font-family: "Times New Roman", Times, serif;
   text-decoration: none;
   z-index: 1;
+  text-align: center;
+}
+.a:hover {
+  color: white;
+  transition: all 1s;
 }
 
 .menu li:hover .submenu {
@@ -166,19 +171,27 @@ h1 {
   width: 25%;
   height: auto;
 }
-
+/**/
+.b {
+  display: block;
+  padding: 15px;
+  color: rgb(7, 178, 184);
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  z-index: 1;
+  text-align: center;
+}
+.b:hover {
+  color: gray;
+  transition: all 1s;
+}
 p {
   font-family: serif;
   font-weight: bold;
   color: rgb(0, 0, 0);
   text-align: center;
 }
-.a {
-  font-family: serif;
-  font-weight: bold;
-  color: rgb(0, 0, 0);
-  text-align: center;
-}
+
 .form-register {
   width: 400px;
   background: #24303c;
