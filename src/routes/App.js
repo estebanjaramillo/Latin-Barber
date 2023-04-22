@@ -8,6 +8,7 @@ import Quienessomos from "../Quienessomos";
 import Recomendaciones from "../Recomendaciones";
 import Catalogo from "../Catalogo";
 import Login from "../Login";
+import Barberos from "../Barberos";
 
 //import dataPsricing from "../dataPricing";
 
@@ -23,6 +24,7 @@ class App extends React.Component {
           <Route exact path="/Recomendaciones" component={Recomendaciones} />
           <Route exact path="/Mision" component={Mision} />
           <Route exact path="/Quienessomos" component={Quienessomos} />
+          <Route exact path="/Barberos" component={Barberos} />
         </Switch>
       </BrowserRouter>
     );

@@ -10,7 +10,6 @@ export default function Home() {
             <a className="a" href="/Catalogo">
               Catalogo
             </a>
-            <div className="submenu"></div>
           </li>
           <li>
             <a className="a" href="/Recomendaciones">
