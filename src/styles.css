@@ -6,14 +6,14 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  background-image: url(https://cdn.wallpapersafari.com/46/0/CAWdm3.jpg);
+  background-color: #fff5dd;
 }
 
 /*Menù*/
 .navegacion {
   width: 80%;
   margin: 30px auto;
-  background: rgb(65, 65, 75);
+  background: rgb(163, 161, 161);
   text-align: center;
 }
 .navegacion ul {
@@ -27,7 +27,7 @@ body {
 .menu > li > a {
   display: block;
   padding: 15px 20px;
-  color: rgb(0, 247, 255);
+  color: rgb(87, 77, 223);
   text-decoration: none;
   font-family: "Times New Roman", Times, serif;
 }
@@ -48,14 +48,14 @@ body {
   visibility: fixed;
   display: block;
   padding: 15px;
-  color: rgb(0, 247, 255);
+  color: rgb(87, 77, 223);
   font-family: "Times New Roman", Times, serif;
   text-decoration: none;
 }
 .a {
   display: block;
   padding: 15px;
-  color: rgb(0, 247, 255);
+  color: rgb(87, 77, 223);
   font-family: "Times New Roman", Times, serif;
   text-decoration: none;
   z-index: 1;
@@ -70,7 +70,7 @@ body {
   z-index: 1;
   visibility: visible;
   opacity: 1;
-  color: rgb(0, 247, 255);
+  color: rgb(87, 77, 223);
 }
 #menu {
   z-index: 1;
@@ -113,7 +113,7 @@ h1 {
 .titulo {
   font-family: "Times New Roman", Times, serif;
   text-align: center;
-  color: rgb(0, 247, 255);
+  color: rgb(87, 77, 223);
   margin: 1%;
   font-size: 350%;
 }
@@ -148,7 +148,7 @@ h1 {
 /*titulo de nombres de integrantes*/
 .titulo_integrantes {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  color: rgb(0, 247, 255);
+  color: rgb(87, 77, 223);
   font-size: 350%;
   text-align: center;
 }
@@ -166,7 +166,7 @@ h1 {
 }
 .caja {
   margin: 3%;
-  background-color: rgb(205, 227, 228);
+  background-color: rgb(163, 161, 161);
   border-radius: 15px;
   width: 25%;
   height: auto;
@@ -175,7 +175,7 @@ h1 {
 .b {
   display: block;
   padding: 15px;
-  color: rgb(7, 178, 184);
+  color: rgb(87, 77, 223);
   font-family: "Times New Roman", Times, serif;
   text-decoration: none;
   z-index: 1;
@@ -255,7 +255,7 @@ p {
   .titulo {
     font-family: "Times New Roman", Times, serif;
     text-align: center;
-    color: rgb(0, 247, 255);
+    color: rgb(87, 77, 223);
     margin: 0px;
     vertical-align: 50%;
     font-size: 250%;

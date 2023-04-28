@@ -23,6 +23,7 @@ export default function Quienessomos() {
         donde los clientes pueden sentirse cómodos, relajados y seguros de que
         su aspecto está en las mejores manos.
       </h2>
+      <img src="https://cdn.shopify.com/s/files/1/0514/5978/4904/files/Johnnys-Barbershop-London-UK_1600x.jpg?v=1625837179" />
     </div>
   );
 }
