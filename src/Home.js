@@ -8,7 +8,7 @@ export default function Home() {
         <ul className="menu">
           <li>
             <a className="a" href="/Catalogo">
-              Catalogo
+              Reserva Online
             </a>
           </li>
           <li>
