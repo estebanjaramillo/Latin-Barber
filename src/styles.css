@@ -6,14 +6,12 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  background-image: url(https://cdn.wallpapersafari.com/46/0/CAWdm3.jpg);
 }
-
 /*Menù*/
 .navegacion {
   width: 80%;
   margin: 30px auto;
-  background: rgb(65, 65, 75);
+  background: black;
   text-align: center;
 }
 .navegacion ul {
@@ -27,7 +25,7 @@ body {
 .menu > li > a {
   display: block;
   padding: 15px 20px;
-  color: rgb(0, 247, 255);
+  color: white;
   text-decoration: none;
   font-family: "Times New Roman", Times, serif;
 }
@@ -38,7 +36,7 @@ body {
 
 .submenu {
   position: absolute;
-  background: rgb(44, 39, 39);
+  background: rgb(22, 22, 22);
   width: 140%;
   visibility: hidden;
   opacity: 100;
@@ -48,14 +46,14 @@ body {
   visibility: fixed;
   display: block;
   padding: 15px;
-  color: rgb(0, 247, 255);
+  color: white;
   font-family: "Times New Roman", Times, serif;
   text-decoration: none;
 }
 .a {
   display: block;
   padding: 15px;
-  color: rgb(0, 247, 255);
+  color: white;
   font-family: "Times New Roman", Times, serif;
   text-decoration: none;
   z-index: 1;
@@ -70,7 +68,7 @@ body {
   z-index: 1;
   visibility: visible;
   opacity: 1;
-  color: rgb(0, 247, 255);
+  color: white;
 }
 #menu {
   z-index: 1;
@@ -102,7 +100,7 @@ img {
 h1 {
   font-family: sans-serif;
   text-align: center;
-  color: rgb(0, 247, 255);
+  color: black;
   margin: 0px;
   vertical-align: 50%;
   font-size: 120%;
@@ -113,7 +111,7 @@ h1 {
 .titulo {
   font-family: "Times New Roman", Times, serif;
   text-align: center;
-  color: rgb(0, 247, 255);
+  color: black;
   margin: 1%;
   font-size: 350%;
 }
@@ -128,7 +126,7 @@ h1 {
   object-fit: cover;
   vertical-align: top;
   text-align: center;
-  color: rgb(0, 247, 255);
+  color: black;
   font-size: 200%;
 }
 
@@ -148,7 +146,7 @@ h1 {
 /*titulo de nombres de integrantes*/
 .titulo_integrantes {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  color: rgb(0, 247, 255);
+  color: black;
   font-size: 350%;
   text-align: center;
 }
@@ -166,7 +164,7 @@ h1 {
 }
 .caja {
   margin: 3%;
-  background-color: rgb(205, 227, 228);
+  background-color: black;
   border-radius: 15px;
   width: 25%;
   height: auto;
@@ -175,26 +173,26 @@ h1 {
 .b {
   display: block;
   padding: 15px;
-  color: rgb(7, 178, 184);
+  color: rgb(255, 255, 255);
   font-family: "Times New Roman", Times, serif;
   text-decoration: none;
   z-index: 1;
   text-align: center;
 }
 .b:hover {
-  color: gray;
+  color: rgb(187, 187, 187);
   transition: all 1s;
 }
 p {
   font-family: serif;
   font-weight: bold;
-  color: rgb(0, 0, 0);
+  color: white;
   text-align: center;
 }
 
 .form-register {
   width: 400px;
-  background: #24303c;
+  background: #000000;
   padding: 30px;
   margin: auto;
   margin-top: 100px;
@@ -211,11 +209,11 @@ p {
 
 .controls {
   width: 100%;
-  background: #24303c;
+  background: #b6b5b5;
   padding: 10px;
   border-radius: 4px;
   margin-bottom: 16px;
-  border: 1px solid #1f53c5;
+  border: 1px solid #ffffff;
   font-family: "calibri";
   font-size: 18px;
   color: white;
@@ -240,14 +238,13 @@ p {
 
 .form-register .botons {
   width: 100%;
-  background: #1f53c5;
+  background: #ffffff;
   border: none;
   padding: 12px;
-  color: white;
+  color: black;
   margin: 16px 0;
   font-size: 16px;
 }
-
 /*//////////////////////////////////////////////////////////////////////////////////
 /*AQUI COMIENZA LAS PARTICIONES RESPONSIVE DE ACUERDO AL ANCHOR DEL DISPOSITIVO*/
 /*/////////////////////////////////////////////////////////////////////////////////////*/
@@ -255,14 +252,14 @@ p {
   .titulo {
     font-family: "Times New Roman", Times, serif;
     text-align: center;
-    color: rgb(0, 247, 255);
+    color: black;
     margin: 0px;
     vertical-align: 50%;
     font-size: 250%;
   }
   .caja {
     margin: 3%;
-    background-color: rgb(205, 227, 228);
+    background-color: black;
     border-radius: 15px;
     width: 35%;
     height: auto;
