@@ -10,8 +10,6 @@ import Catalogo from "../Catalogo";
 import Login from "../Login";
 import Barberos from "../Barberos";
 
-//import dataPsricing from "../dataPricing";
-
 class App extends React.Component {
   render() {
     return (
