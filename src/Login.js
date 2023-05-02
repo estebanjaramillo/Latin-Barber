@@ -21,7 +21,7 @@ export default function Login() {
           id="correo"
           placeholder="Ingrese su Contraseña"
         />
-        <input className="botons" type="submit" value="enviar" />
+        <input className="botons" type="submit" value="Enviar" />
         <p>
           <a href="/Registro">¿No tengo Cuenta?</a>
         </p>
